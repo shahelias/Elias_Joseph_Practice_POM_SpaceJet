@@ -19,7 +19,7 @@ public class TestBase {
 		prop = new Properties();
 		
 		try {
-			FileInputStream ip = new FileInputStream("C:\\Users\\smelias\\workspace\\Elias_Joseph_Practice_POM_SpaceJet\\src\\main\\java\\com\\spacejet\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\josep\\OneDrive\\Desktop\\QA Training\\Selenium Practice Programs\\EliasGitPull\\Elias_Joseph_Practice_POM_SpaceJet\\src\\main\\java\\com\\spacejet\\qa\\config\\config.properties");
 		prop.load(ip);
 		
 		
@@ -40,7 +40,7 @@ public class TestBase {
 		
 		if (browserName.equals("chrome")) {
 			
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\smelias\\workspace\\Elias_Joseph_Practice_POM_SpaceJet\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\josep\\OneDrive\\Desktop\\QA Training\\Selenium Practice Programs\\EliasGitPull\\Elias_Joseph_Practice_POM_SpaceJet\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			
 		} 

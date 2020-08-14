@@ -37,6 +37,9 @@ public class LoadingPageTest extends TestBase{
 	@Test(priority = 3, enabled = true)
 	public void navigationTest() throws InterruptedException{
 		loginpage.loginNavigation();
+		String titlePrint= loginpage.verifyTitle();
+		System.out.println(titlePrint);
+		//Assert.assertEquals(titlePrint,"SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets");
 	}
 	
 
